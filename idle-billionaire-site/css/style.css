@@ -1,0 +1,85 @@
+body{
+margin:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#020617;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+}
+
+.nav-links li{
+margin-left:20px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+background:linear-gradient(45deg,#2563eb,#9333ea);
+animation:fade 2s;
+}
+
+.download-btn{
+background:#22c55e;
+padding:15px 30px;
+border-radius:10px;
+cursor:pointer;
+display:inline-block;
+margin-top:20px;
+}
+
+.features{
+padding:60px;
+text-align:center;
+}
+
+.grid{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+width:250px;
+transition:transform 0.3s;
+}
+
+.card:hover{
+transform:scale(1.1);
+}
+
+.page{
+padding:60px;
+max-width:900px;
+margin:auto;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
+
+@keyframes fade{
+from{opacity:0;}
+to{opacity:1;}
+}
